@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:serif;}
+
+
+body{
+    background:#f4f4f4;}
+
+
+header{
+    background:#6B6A2E;
+    color:white;
+    padding:10px;
+}
+
+nav{
+    margin-top:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    display:inline-block;
+
+    margin-right:10px;}
+
+
+.banner img{
+    width:100%;
+    height:auto;
+}
+
+section{
+    padding:15px;}
+
+
+.intro,.announcement,
+.datetime,
+form,
+table,
+#feedbackSummary{
+    background:white;
+    padding:15px;
+    margin-top:15px;
+}
+table{
+    width:95%;
+    border-collapse:collapse;}
+
+table th,
+table td{
+    border:1px solid #ccc;
+    padding:8px;
+    text-align:left;}
+.form-section{
+    margin-top:15px;}
+.student-box{
+    border:1px solid #ccc;
+    padding:10px;
+    margin-top:10px; }
+input,
+select,
+textarea{
+    width:100%;
+    padding:8px;
+    border:1px solid #ccc;}
+textarea{
+    min-height:80px;}
+button{
+    background:#1e3a5f;
+    color:white;
+    border:none;
+    padding:8px 12px;
+    cursor:pointer;}
+.success{
+    color:green;}
+.error{
+    color:red;}
+footer{
+    background:#1e3a5f;
+    color:white;
+    padding:10px;
+    margin-top:15px;
+}
+@media(max-width:768px){
+    nav a{
+        display:block;
+        margin-bottom:8px;
+    }
+    table{
+        font-size:14px;
+    }
+}

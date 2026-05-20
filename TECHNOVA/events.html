@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - TechNova 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>TechNova 2026</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">events</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+</header>
+<section>
+    <h2>Event List</h2>
+    <table>
+        <tr>
+            <th>iD</th>
+            <th>name</th>
+            <th>category</th>
+            <th>date and time</th>
+            <th>venue</th>
+            <th>fee</th>
+            <th>status</th>
+        </tr>
+        <tr>
+            <td>E101</td>
+            <td>Coding Challenge</td>
+            <td>Programming</td>
+            <td>12 Mar 10AM</td>
+            <td>Lab 1</td>
+            <td>200</td>
+            <td>Open</td>
+        </tr>
+        <tr>
+            <td>E102</td>
+            <td>Robotics</td>
+            <td>Hardware</td>
+            <td>12 Mar 1PM</td>
+            <td>Hall A</td>
+            <td>300</td>
+            <td>Closed</td>
+        </tr>
+        <tr>
+            <td>E103</td>
+            <td>Paper Presentation</td>
+            <td>Technical</td>
+            <td>13 Mar 11AM</td>
+            <td>Auditorium</td>
+            <td>150</td>
+            <td>Open</td>
+        </tr>
+        <tr>
+            <td>E104</td>
+            <td>UI/UX Design</td>
+            <td>Design</td>
+            <td>13 Mar 2PM</td>
+            <td>Lab 2</td>
+            <td>200</td>
+            <td>Open</td>
+        </tr>
+        <tr>
+            <td>E105</td>
+            <td>Gaming Tournament</td>
+            <td>Gaming</td>
+            <td>14 Mar 9AM</td>
+            <td>Arena</td>
+            <td>250</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+</section>
+<section class="form-section">
+    <h2>Student Registration</h2>
+    <form id="registrationForm">
+        <input type="text" id="studentName" placeholder="Student Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="text" id="mobile" placeholder="Mobile Number">
+        <input type="text" id="regNumber" placeholder="Registration Number">
+        <select id="eventSelect">
+            <option value="">Select Event</option>
+            <option>Coding Challenge</option>
+            <option>Robotics</option>
+            <option>Paper Presentation</option>
+            <option>UI/UX Design</option>
+            <option>Gaming Tournament</option>
+        </select>
+        <select id="participationType">
+            <option value="">Participation Type</option>
+            <option>Individual</option>
+            <option>Team</option>
+        </select>
+        <input type="text" id="teamName" placeholder="Team Name">
+        <input type="number" id="teamSize" placeholder="Team Size">
+        <button type="submit">Register</button>
+        <p id="registerMsg"></p>
+    </form>
+</section>
+<section class="form-section">
+    <h2>Registered Participants</h2>
+    <h4>Total Registrations: <span id="totalCount">0</span></h4>
+    <table id="participantTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Reg No</th>
+                <th>Event</th>
+                <th>Type</th>
+                <th>Team Name</th>
+                <th>Team Size</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</section>
+<footer>
+    <p>Email: technova2026@bl.studens.amrita.edu</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

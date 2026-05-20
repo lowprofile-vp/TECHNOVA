@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback for TechNova 2026 (ASEB)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>TechNova 2026</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="feedback.html">feedback</a>
+    </nav>
+</header>
+<section class="form-section">
+    <h2>submit feedbackform</h2>
+    <form id="feedbackForm">
+        <input type="text" id="fbName" placeholder="studentname">
+        <input type="text" id="fbReg" placeholder="registrationnumber">
+        <select id="fbEvent">
+            <option value="">Select Event</option>
+            <option>coding challenge</option>
+            <option>robotics workshop</option>
+            <option>gaming arena</option>
+            <option>ui Design Contest</option>
+            <option>tech quiz</option>
+
+        </select>
+        <select id="rating">
+            <option value="">Rating</option>
+            <option value="1">1.0</option>
+            <option value="2">2.0</option>
+            <option value="3">3</option>
+            <option value="4">4.0</option>
+            <option value="5">5</option>
+        </select>
+        <textarea id="comments" placeholder="Enter comments"></textarea>
+        <button type="submit">submit feedback</button>
+        <p id="feedbackMsg"></p>
+    </form>
+    <div id="summary"></div>
+
+</section>
+
+<footer>
+
+    <p>Email: technova2026@bl.students.amrita.edu</p>
+    <p>Phone:9876543251</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
